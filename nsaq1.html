@@ -1,0 +1,16 @@
+#!/bin/sh
+echo " enter the values "
+read a
+read b
+read c
+if [ $a == $b -a  $a == $c -a $b == $c ]
+then
+echo " is an equilateral "
+elif [ $a != $b -a $a != $c -a $b != $c ]
+then
+echo " is an scalene "
+else
+echo " is an isosceless "
+fi
+~
+~
