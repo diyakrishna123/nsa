@@ -1,0 +1,11 @@
+echo " enter the year "
+read yr
+if (( ($yr % 4 == 0 && $yr % 100 != 0) || $yr % 400 == 0 ));
+then
+ echo " is a leap year "
+else
+ echo " not leap yera "
+fi
+
+~
+~
