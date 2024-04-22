@@ -1,0 +1,13 @@
+time=$( date +%H)
+echo $time ":" $( date +%M) ":" $( date +%s)
+if [ $time -lt 12 ]
+then
+echo "Good Morning"
+elif [ $time -lt 16 ]
+then
+echo " Good afternoon"
+else
+echo " Good night"
+fi
+~
+~
